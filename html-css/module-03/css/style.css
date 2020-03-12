@@ -2,11 +2,23 @@
     width: 900px;
     margin: 0 auto;
 }
-
-.header {
-    height: auto;
+.navigation menu{
     text-align: center;
-    line-height: 190px;
+}
+.container {
+    width: 900px;
+    margin: 199 auto;
+}
+header {
+    padding-top: 70px;
+    padding-bottom: 100px;
+    
+}
+body {
+    font-family: "Playfair Display", serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .header__list {
@@ -57,11 +69,12 @@
 }
 
 .button {
-    font: 20px/24px "Playfair Display", sans-serif;
-    color: #626262;
-    text-decoration: none;
-    text-align: center;
-    border: 1px solid #626262;
+    padding: 0;
+    width: 165px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
 }
 
 .section {
