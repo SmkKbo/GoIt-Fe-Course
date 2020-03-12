@@ -25,8 +25,8 @@ html {
   
   /* navigation */
   .navigation-hat {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 77px;
+    padding-bottom: 102px;
   }
   
   .site-navigation {
@@ -49,12 +49,15 @@ html {
   
   .site-navigation a {
     display: block;
-    font-family: 'Playfair Display', serif;
+    padding: 2px 2px;
+    text-decoration: none;
+    font: 14px/24px "Playfair Display", sans-serif;
+    text-transform: uppercase;
+    color: #626262;
   }
   
   .site-navigation a:hover {
-    background-color: aquamarine;
-    color: rgb(3, 3, 3);
+    color: #03a9f4;
   }
   
   .site-navigation a:focus {
@@ -127,7 +130,7 @@ html {
   .load-more {
     display: block;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 auto;
     width: 160px;
     height: 60px;
     background-color: rgb(255, 255, 255);
@@ -135,10 +138,15 @@ html {
     color: rgb(102, 102, 102);
     font-family: 'Playfair Display';
     font-size: 20px;
+  
   }
   
   .load-more:hover {
-    background-color: white;
+    font: 20px/24px "Playfair Display", sans-serif;
+    color: #626262;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #626262;
     cursor: pointer;
   
   }
