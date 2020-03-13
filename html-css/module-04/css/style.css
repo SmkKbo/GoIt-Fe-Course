@@ -83,6 +83,7 @@ header {
     line-height: 32px;
     text-transform: uppercase;
     letter-spacing: -0.28px;
+    
 }
 
 .nav__list-item:last-child {
@@ -92,6 +93,7 @@ header {
 .nav__list-link {
     text-decoration: none;
     color: rgb(15, 1, 1);
+   
 }
 
 .nav__list-link:hover,
@@ -235,6 +237,7 @@ header {
 }
 
 .list-feature__link {
+    display: block;
     padding: 17px 43px;
     border-radius: 5px;
     color: rgb(255, 255, 255);

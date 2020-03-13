@@ -84,7 +84,9 @@ html {
     font-size: 0;
     padding-bottom: 70px;
   }
-  
+  p.text {
+    margin: 0;
+  }
   .stories_img {
     margin-bottom: 30px;
   }
@@ -96,10 +98,7 @@ html {
     
   }
   
-  .stories p:nth-last-child(-n+2) {
-    margin-bottom: 53px;
-  }
-  
+
   .stories h2 {
     font-size: 30px;
     margin-bottom: 37px;
