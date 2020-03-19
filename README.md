@@ -10,3 +10,8 @@
 Ссылка на исходные файлы модуля-04:https://github.com/SmkKbo/goit-fe-course/tree/master/html-css/module-04
 
 Ссылка на рабочую страницу модуля-04:https://smkkbo.github.io/goit-fe-course/html-css/module-04/index.html
+
+Ссылка на исходные файлы модуля-05:https://github.com/SmkKbo/goit-fe-course/tree/master/html-css/module05
+
+Ссылка на рабочую страницу модуля-05:https://smkkbo.github.io/goit-fe-course/html-css/module05/
+
