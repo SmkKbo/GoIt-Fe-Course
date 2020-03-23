@@ -320,7 +320,7 @@ header {
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 72px;
+  bottom: 0px;
   left: 0;
 }
 
@@ -349,6 +349,11 @@ header {
 .overlay-item:hover {
   background-color: rgb(149, 225, 211);
 }
+
+.overlay-wrap{
+  position: relative;
+}
+
 
 /* FOOTER */
 
