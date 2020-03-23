@@ -272,7 +272,6 @@ header {
 .team-list__img {
   display: block;
   position: relative;
-  margin-bottom: 26px;
 }
 
 .team-list__item:hover .overlay {
@@ -320,7 +319,7 @@ header {
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 0px;
+  bottom: 72px;
   left: 0;
 }
 
@@ -352,6 +351,7 @@ header {
 
 .overlay-wrap{
   position: relative;
+  margin-bottom: 26px;
 }
 
 
