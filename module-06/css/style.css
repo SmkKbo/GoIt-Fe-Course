@@ -321,6 +321,7 @@ header {
   right: 0;
   bottom: 72px;
   left: 0;
+  height: 100%;
 }
 
 .overlay-list {
