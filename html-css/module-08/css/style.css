@@ -171,30 +171,42 @@
     font-weight: 300;
     text-align: center; }
   .card:nth-child(1) .avatar__icon {
+    background-image: url(../img/tv.png);
     background-color: #ff4e50; }
   .card:nth-child(2) .avatar__icon {
+    background-image: url(../img/coffee.png);
     background-color: #1cd7ad; }
   .card:nth-child(3) .avatar__icon {
+    background-image: url(../img/flask.png);
     background-color: #ffa507; }
   .card:nth-child(4) .avatar__icon {
+    background-image: url(../img/telegram.png);
     background-color: #4e73db; }
 
 .avatar {
   width: 120px;
   height: 120px;
   margin: auto;
-  position: relative; }
+  position: relative; 
+}
   .avatar__pic {
     max-width: 100%;
-    border-radius: 50%; }
+    border-radius: 50%; 
+  }
   .avatar__icon {
-    display: flex;
-    padding: 10px;
+    content: '';
+    display: block;
     position: absolute;
-    right: -5px;
-    bottom: 0;
+    right: -4px;
+    bottom: -4px;
+    width: 34px;
+    height: 34px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 4px solid #ffffff;
     border-radius: 50%;
-    border: 4px solid #fff; }
+    z-index: 1;
+  }
 
 :root {
   font-size: 10px; }
