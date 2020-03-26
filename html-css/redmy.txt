@@ -1,0 +1,21 @@
+ .button-wrap {
+    min-width: 94px;
+    min-height: 40px;
+    border: 2px transparent var(--main-color);
+    border-radius: 20px;
+    background-color: transparent;
+    color: var(--main-color);
+    cursor: pointer;
+    transition: all 200ms linear;
+  }
+
+
+
+
+
+   .btn {
+      display: inline-block; } }
+  .btn_border {
+    border: 2px solid var(--color-border, #fff);
+    color: var(--color-border, #fff);
+    border-radius: 30px; }
