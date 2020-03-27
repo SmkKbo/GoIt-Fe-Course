@@ -79,7 +79,7 @@ p {
 }
 
 header {
-  background-image: url(../img/back-sd.png);
+  background-image: url(../img/mobile.png);
   background-repeat: no-repeat;
   background-color: #1a1915;
   background-size: cover;
@@ -288,7 +288,7 @@ span {
 @media (min-width: 768px) {
   header {
     padding: 38px 0 234px;
-    background-image: url(../img/back-md.png);
+    background-image: url(../img/tablet.png);
   }
   nav {
     margin-bottom: 150px;
@@ -338,7 +338,7 @@ span {
 
 @media (min-width: 992px) {
   header {
-    background-image: url(../img/back-ld.png);
+    background-image: url(../img/laptop.png);
   }
   .partners {
     padding: 74px 0 72px;
