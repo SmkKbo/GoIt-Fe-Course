@@ -97,7 +97,8 @@ span {
   margin-bottom: 28px;
 }
 
-.loging-block button {
+.registration-wrap {
+  margin-bottom: 34px;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   line-height: 17px;
@@ -106,19 +107,29 @@ span {
   background-color: transparent;
 }
 
-.login-btn {
-  border: 0;
-  margin-right: 20px;
+.registration-btn {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  padding: 11px 19px;
+  margin-bottom: 75px;
+  border: 2px solid rgb(255, 255, 255, 0);
+  border-radius: 25px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
 }
 
-.singup-btn {
-  border: 2px solid #ffffff;
-  border-radius: 18px;
-  width: 90px;
-  height: 36px;
+.registration-btn:hover {
+  border: 2px solid rgb(255, 255, 255, 1);
 }
 
-.page-logo {
+.registration-btn:active {
+  background-color: rgb(98, 228, 200);
+}
+
+.logotype {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   line-height: 24px;
@@ -260,13 +271,13 @@ span {
   color: #ff4e50;
 }
 
-.other-partners__link::hover{
+.other-partners__link:hover{
   color: rgb(255, 255, 255);
   background-color: rgb(255, 78, 80);
 }
 
 @media (max-width: 767px) {
-  .loging-block {
+  .registration-wrap {
     margin-bottom: 115px;
   }
   .partners-item:not(:last-child) {
@@ -282,7 +293,7 @@ span {
   nav {
     margin-bottom: 150px;
   }
-  .loging-block {
+  .registration-wrap {
     text-align: right;
   }
   .page-logo-wrapper {
