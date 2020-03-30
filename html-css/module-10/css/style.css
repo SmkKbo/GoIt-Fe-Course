@@ -58,17 +58,17 @@
 
 .nav__item:hover>.nav__link::after {
   display: block;
-  -webkit-transition: 100ms;
+ 
 }
 
 .nav__link:hover {
   color: rgba(252, 227, 138, 255);
-  -webkit-transition: 100ms;
+  
 }
 
 .nav__icon:hover {
   fill: rgba(252, 227, 138, 255);
-  -webkit-transition: 100ms;
+  
 }
 
 .nav__svg {
@@ -228,9 +228,8 @@
   background-image: -o-linear-gradient( bottom, rgba(252, 227, 138, 0.8) 0%, rgba(243, 129, 129, 0.8) 100%), url('../img/people/eagle.png');
   background-image: linear-gradient( to top, rgba(252, 227, 138, 0.8) 0%, rgba(243, 129, 129, 0.8) 100%), url('../img/people/eagle.png');
 }
-
 @media (-webkit-min-device-pixel-ratio: 2),
-(-o-min-device-pixel-ratio: 2/1)/eagle.png
+(-o-min-device-pixel-ratio: 2/1),
 (min-resolution: 192dpi) {
   .wrapper_first_section {
       background-image: -webkit-gradient ( linear, left bottom, left top, from (rgba(252, 227, 138, 0.8)), to (rgba(243, 129, 129, 0.8))), url('../img/people/eagle@x2.png');
@@ -239,6 +238,7 @@
       background-image : linear-gradient( to top, rgba(252, 227, 138, 0.8) 0%, rgba(243, 129, 129, 0.8) 100%), url('../img/people/eagle@x2.png');
   }
 }
+
 
 .first_section_article {
   width: 821px;
@@ -398,9 +398,11 @@
   transform: translate(50%, 50%);
 }
 
-.contact_buttons__facebook:hover .contact__icon {
+.contact_buttons__facebook,:hover .contact__icon {
   fill: #ffffff;
 }
+
+
 
 .contact_buttons__facebook,
 .contact_buttons__twitter,
@@ -408,13 +410,14 @@
   border-right: 1px solid #f38181;
 }
 
-.contact_buttons__facebook:hover,
-.contact_buttons__twitter:hover,
-.contact_buttons__photo:hover,
-.contact_buttons__insta:hover {
-  background-color: #f38181;
-  -webkit-transition: 100ms;
+.contact_buttons__photo:hover{
+  background-color: red;
+
 }
+.contact_buttons__facebook:hover{
+  background-color: blue;
+}
+
 
 .contact_buttons__facebook:hover .contact_icon {
   fill: #ffffff;
@@ -430,7 +433,7 @@
   transform: translate(-10px, -10px);
   -webkit-box-shadow: 10px 10px #95e1d3;
   box-shadow: 10px 10px #95e1d3;
-  -webkit-transition: 200ms;
+
 }
 
 .team__overlay {
