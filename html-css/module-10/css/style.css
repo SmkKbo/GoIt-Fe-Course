@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300i,400&display=swap");
@@ -228,8 +230,8 @@
   background-size: cover;
   background-position: center;
   background-image: -webkit-gradient ( linear, left bottom, left top, from (rgba(252, 227, 138, 0.8)), to (rgba(243, 129, 129, 0.8))), url('../img/people/eagle.png');
-  background-image: -webkit-linear-gradient( bottom, rgba(252, 227, 138, 0.8) 0%, rgba(243, 129, 129, 0.8) 100%), url('../img/people/eagle.png');
   background-image: -o-linear-gradient( bottom, rgba(252, 227, 138, 0.8) 0%, rgba(243, 129, 129, 0.8) 100%), url('../img/people/eagle.png');
+  background-image: -webkit-gradient( linear, left bottom, left top, from(rgba(252, 227, 138, 0.8)), to(rgba(243, 129, 129, 0.8))), url('../img/people/eagle.png');
   background-image: linear-gradient( to top, rgba(252, 227, 138, 0.8) 0%, rgba(243, 129, 129, 0.8) 100%), url('../img/people/eagle.png');
 }
 @media (-webkit-min-device-pixel-ratio: 2),
@@ -237,8 +239,8 @@
 (min-resolution: 192dpi) {
   .wrapper_first_section {
       background-image: -webkit-gradient ( linear, left bottom, left top, from (rgba(252, 227, 138, 0.8)), to (rgba(243, 129, 129, 0.8))), url('../img/people/eagle@x2.png');
-      background-image : -webkit-linear-gradient( bottom, rgba(252, 227, 138, 0.8) 0%, rgba(243, 129, 129, 0.8) 100%), url('../img/people/eagle@x2.png');
       background-image : -o-linear-gradient( bottom, rgba(252, 227, 138, 0.8) 0%, rgba(243, 129, 129, 0.8) 100%), url('../img/people/eagle@x2.png');
+      background-image : -webkit-gradient( linear, left bottom, left top, from(rgba(252, 227, 138, 0.8)), to(rgba(243, 129, 129, 0.8))), url('../img/people/eagle@x2.png');
       background-image : linear-gradient( to top, rgba(252, 227, 138, 0.8) 0%, rgba(243, 129, 129, 0.8) 100%), url('../img/people/eagle@x2.png');
   }
 }
@@ -438,16 +440,20 @@
   transform: translate(-10px, -10px);
   -webkit-box-shadow: 10px 10px #95e1d3;
   box-shadow: 10px 10px #95e1d3;
+  transition: all 0.9s linear;
 
+}
+
+.team__pic{
+  transition: all 0.2s linear;
 }
 
 .team__overlay {
   position: absolute;
   width: 383px;
   height: 473px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(239, 139, 138, 0.9)), to(rgba(237, 213, 135, 0.9)));
-  background: -webkit-linear-gradient(rgba(239, 139, 138, 0.9), rgba(237, 213, 135, 0.9));
   background: -o-linear-gradient(rgba(239, 139, 138, 0.9), rgba(237, 213, 135, 0.9));
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(239, 139, 138, 0.9)), to(rgba(237, 213, 135, 0.9)));
   background: linear-gradient(rgba(239, 139, 138, 0.9), rgba(237, 213, 135, 0.9));
   display: -webkit-box;
   display: -ms-flexbox;
@@ -459,6 +465,7 @@
   -ms-flex-pack: center;
   justify-content: center;
   opacity: 0;
+  transition: all 0.9s linear;
 }
 
 .team__wrap_for_img_overlay {
