@@ -414,13 +414,14 @@
   border-right: 1px solid #f38181;
 }
 
-.contact_buttons__photo:hover{
-  background-color: red;
+.contact_buttons__facebook:hover,
+.contact_buttons__twitter:hover,
+.contact_buttons__photo:hover,
+.contact_buttons__insta:hover {
+    background-color: #f38181;
+}
 
-}
-.contact_buttons__facebook:hover{
-  background-color: blue;
-}
+
 
 
 .contact_buttons__facebook:hover .contact_icon {
